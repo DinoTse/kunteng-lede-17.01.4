@@ -19,7 +19,13 @@ find, grep, diff, unzip, gawk, getopt, subversion, libz-dev and libc 头文件
 sudo apt-get update
 sudo apt-get install gcc g++ build-essential subversion git-core libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc libxml-parser-perl mercurial bzr ecj cvs unzip
 ```
+### 添加管理界面
 
+```
+./scripts/feeds update -a
+./scripts/feeds install -a
+
+```
 ### 选择编译目标
 
 ```
