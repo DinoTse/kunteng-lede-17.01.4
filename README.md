@@ -47,7 +47,8 @@ lede-ipq806x-R7800-squashfs-factory.img  lede-ipq806x-ubifs-root.img            
 其中lede-ipq806x-R7800-squashfs-factory.img即为R7800的工厂固件， lede-ipq806x-R7800-squashfs-sysupgrade.tar为升级固件
 
 ## 联系我们
-[331230369](https://jq.qq.com/?_wv=1027&k=4ADDSev)
+
+加qq群 [331230369](https://jq.qq.com/?_wv=1027&k=4ADDSev)
 
 
 
