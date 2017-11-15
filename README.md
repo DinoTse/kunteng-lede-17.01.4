@@ -41,6 +41,8 @@ make menuconfig
 
 make V=s -j4
 
+#### 如果编译遇到问题，使用 make V=s 看具体问题是什么
+
 编译完成后
 
 ```
