@@ -7,10 +7,10 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mklibs
-PKG_VERSION:=0.1.34
+PKG_VERSION:=0.1.35
 
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://mirrors.cnnic.cn/debian/pool/main/m/mklibs/
+PKG_SOURCE_URL:=http://mirror2.openwrt.org/sources/
 PKG_HASH:=ccb1023dc1729c5a37ca6c3eca8e4bac3491116763c8820dfce8eea4845c8567
 
 HOST_FIXUP:=autoreconf
