@@ -1,8 +1,8 @@
-kunteng-lede-17.01.4是在LEDE 17.01.4的发行版本的基础上，
+kunteng-lede-17.01.4是在LEDE 17.01.4的发行版本的基础上，增加了坤腾的开源插件以及我们精选的开源插件，
 
-增加了坤腾的开源插件以及我们精选的开源插件，同时精简了编译步骤，
+同时精简了编译步骤，针对国内的环境，优化了下载源，加快编译速度，降低了LEDE的开发编译门槛，
 
-降低了LEDE的开发编译门槛，使用户能用最快的速度编译出自己想要的固件。
+使开发者能用最快的速度编译出自己想要的固件。
 
 ## 编译步骤
 
@@ -19,7 +19,13 @@ find, grep, diff, unzip, gawk, getopt, subversion, libz-dev and libc 头文件
 sudo apt-get update
 sudo apt-get install gcc g++ build-essential subversion git-core libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc libxml-parser-perl mercurial bzr ecj cvs unzip
 ```
+### 添加管理界面
 
+```
+./scripts/feeds update -a
+./scripts/feeds install -a
+
+```
 ### 选择编译目标
 
 ```
@@ -34,6 +40,8 @@ make menuconfig
 ### 编译固件
 
 make V=s -j4
+
+#### 如果编译遇到问题，使用 make V=s 看具体问题是什么
 
 编译完成后
 
@@ -53,4 +61,6 @@ lede-ipq806x-R7800-squashfs-factory.img  lede-ipq806x-ubifs-root.img            
 
 
 ### 如果您觉得我们的开源对您有帮助，请不要犹豫 star
+
+[反馈&建议](https://github.com/KunTengRom/kunteng-lede-17.01.4/issues/new)
 
