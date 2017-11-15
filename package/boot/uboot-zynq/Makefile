@@ -12,6 +12,7 @@ PKG_NAME:=u-boot
 PKG_VERSION:=2016.03
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:= \
+	http://ftp.denx.de/pub/u-boot	\
 	http://mirror2.openwrt.org/sources \
 	ftp://ftp.denx.de/pub/u-boot
 
