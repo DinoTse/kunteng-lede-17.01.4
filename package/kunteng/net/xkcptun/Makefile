@@ -11,8 +11,10 @@ PKG_NAME:=xkcptun
 PKG_VERSION:=0.4.409
 PKG_RELEASE:=1
 
+PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/liudf0716/xkcptun/releases/download/$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://gitee.com/apfree/xkcptun.git
+PKG_SOURCE_VERSION:=$(PKG_VERSION)
 PKG_MD5SUM:=bd3c216165ae31a8fa580e5d866972ec
 
 PKG_INSTALL:=1
