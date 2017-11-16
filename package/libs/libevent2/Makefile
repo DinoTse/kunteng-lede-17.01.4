@@ -12,7 +12,7 @@ PKG_VERSION:=2.1.8
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL=https://github.com/KunTengRom/kunteng_libevent2.git
+PKG_SOURCE_URL=https://gitee.com/apfree/kunteng_libevent2.git
 PKG_SOURCE_VERSION:=release-2.1.8-stable
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=libevent-$(PKG_VERSION)-stable.tar.gz
