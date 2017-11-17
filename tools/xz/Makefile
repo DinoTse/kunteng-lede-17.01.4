@@ -10,7 +10,8 @@ PKG_NAME:=xz
 PKG_VERSION:=5.2.3
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=@SF/lzmautils \
+PKG_SOURCE_URL:=http://openwrt.kunteng.org/sources/ \
+		@SF/lzmautils \
 		http://tukaani.org/xz
 PKG_HASH:=fd9ca16de1052aac899ad3495ad20dfa906c27b4a5070102a2ec35ca3a4740c1
 
