@@ -44,6 +44,9 @@ get_status_led() {
 	ap136-020)
 		status_led="ap136:green:status"
 		;;
+	kt9661w)
+		status_led="kt9661w:green:status"
+		;;
 	ap147-010)
 		status_led="ap147:green:status"
 		;;

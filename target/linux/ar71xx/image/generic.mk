@@ -121,6 +121,21 @@ define Device/dragino2
 endef
 TARGET_DEVICES += dragino2
 
+define Device/kt9661w
+  DEVICE_TITLE := KUNTENG KT9661W
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport kmod-usb-storage
+  BOARDNAME = KT9661W
+  KERNEL_SIZE = 2048k
+  IMAGE_SIZE = 16000k
+  CONSOLE = ttyS0,115200
+  MTDPARTS = spi0.0:256k(u-boot),64k(env),2048k(kernel),13952k(rootfs),64k(art),16000k@0x50000(firmware)
+  IMAGE/kernel.bin = append-kernel
+  IMAGE/rootfs.bin = append-rootfs | pad-rootfs
+  IMAGES := kernel.bin rootfs.bin sysupgrade.bin
+  IMAGE/sysupgrade.bin = append-kernel | pad-to 2048k | append-rootfs | pad-rootfs | check-size $$$$(IMAGE_SIZE)
+endef
+TARGET_DEVICES += kt9661w
+
 define Device/weio
   DEVICE_TITLE := WeIO
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2

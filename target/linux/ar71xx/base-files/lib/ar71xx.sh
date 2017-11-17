@@ -448,6 +448,10 @@ ar71xx_board_detect() {
 	*"AP135-020 reference board")
 		name="ap135-020"
 		;;
+	*"KUNTENG KT9661W")
+		name="kt9661w"
+		board_type="kt9661w"
+		;;
 	*"AP143 reference board")
 		name="ap143"
 		;;

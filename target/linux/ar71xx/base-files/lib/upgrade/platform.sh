@@ -319,6 +319,14 @@ platform_check_image() {
 
 		return 0
 		;;
+	kt9661w)
+		[ "$magic_long" != "27051956" ] && {
+			echo "Invalid image type."
+			return 1
+		}
+
+		return 0
+		;;
 	all0258n|\
 	all0315n|\
 	cap324|\

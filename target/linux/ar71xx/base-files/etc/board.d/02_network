@@ -50,10 +50,15 @@ ar71xx_setup_interfaces()
 	whr-hp-g300n|\
 	whr-hp-gn|\
 	wzr-hp-ag300h|\
+	kt9661w|\
 	zbt-we1526)
 		ucidef_set_interfaces_lan_wan "eth0" "eth1"
 		ucidef_add_switch "switch0" \
 			"0@eth0" "1:lan:4" "2:lan:3" "3:lan:2" "4:lan:1"
+		wan_mac_addr=`cat /sys/class/net/eth1/address`
+		uci set network.wan.macaddr=$wan_mac_addr
+		lan_mac_addr=`cat /sys/class/net/eth0/address`
+		uci set network.lan.macaddr=$lan_mac_addr
 		;;
 	alfa-ap120c|\
 	all0305|\
