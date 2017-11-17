@@ -13,7 +13,8 @@ PKG_HASH:=ce8ef1bbb0d4730f170167284fda156ac9d6bf18db2750eb94af619a81b19927
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=@SF/e2fsprogs
+PKG_SOURCE_URL:=http://openwrt.kunteng.org/sources/ \
+	@SF/e2fsprogs
 
 HOST_BUILD_PARALLEL:=1
 
