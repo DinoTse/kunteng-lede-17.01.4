@@ -18,7 +18,8 @@ PKG_BUILD_PARALLEL:=0
 
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://www.openssl.org/source/ \
+PKG_SOURCE_URL:=http://openwrt.kunteng.org/sources/ \
+	http://www.openssl.org/source/ \
 	ftp://ftp.openssl.org/source/ \
 	http://www.openssl.org/source/old/$(PKG_BASE)/ \
 	ftp://ftp.funet.fi/pub/crypt/mirrors/ftp.openssl.org/source \
