@@ -12,7 +12,7 @@ PKG_NAME:=mac80211
 
 PKG_VERSION:=2017-01-31
 PKG_RELEASE:=3
-PKG_SOURCE_URL:=http://mirror2.openwrt.org/sources
+PKG_SOURCE_URL:=http://openwrt.kunteng.org/sources
 PKG_BACKPORT_VERSION:=
 PKG_HASH:=75e6d39e34cf156212a2509172a4a62b673b69eb4a1d9aaa565f7fa719fa2317
 
