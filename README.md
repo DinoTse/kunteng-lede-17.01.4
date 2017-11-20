@@ -69,5 +69,5 @@ lede-ipq806x-R7800-squashfs-factory.img  lede-ipq806x-ubifs-root.img            
 
 ### 如果您觉得我们的开源对您有帮助，请不要犹豫 star
 
-[反馈&建议](https://github.com/KunTengRom/kunteng-lede-17.01.4/issues/new)
+[下载慢的请到此反馈](https://github.com/KunTengRom/kunteng-lede-17.01.4/issues/new)
 
