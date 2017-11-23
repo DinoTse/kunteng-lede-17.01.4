@@ -234,6 +234,8 @@ foreach my $mirror (@ARGV) {
 			push @extra, "$extra[0]/longterm/v$1";
 		}		
 		foreach my $dir (@extra) {
+			push @mirrors, "http://mirrors.aliyun.com/linux-kernel/$dir";
+			push @mirrors, "https://mirrors.tuna.tsinghua.edu.cn/kernel/$dir";
 			push @mirrors, "http://mirrors.163.com/kernel/$dir";
 			push @mirrors, "https://mirrors.cnnic.cn/kernel/$dir";
 			push @mirrors, "https://cdn.kernel.org/pub/$dir";
