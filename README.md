@@ -62,6 +62,8 @@ lede-ipq806x-R7800-squashfs-factory.img  lede-ipq806x-ubifs-root.img            
 
 [网易开源镜像站](http://mirrors.163.com/)
 
+[阿里云镜像](http://mirrors.aliyun.com/)
+
 ## 联系我们
 
 加qq群 [331230369](https://jq.qq.com/?_wv=1027&k=4ADDSev)
