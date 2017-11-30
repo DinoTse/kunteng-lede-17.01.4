@@ -10,7 +10,8 @@ PKG_NAME:=cmake
 PKG_VERSION:=3.7.1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://cmake.org/files/v3.7/ \
+PKG_SOURCE_URL:=http://openwrt.kunteng.org/sources/	\
+		https://cmake.org/files/v3.7/ \
 		https://fossies.org/linux/misc/
 PKG_HASH:=449a5bce64dbd4d5b9517ebd1a1248ed197add6ad27934478976fd5f1f9330e1
 

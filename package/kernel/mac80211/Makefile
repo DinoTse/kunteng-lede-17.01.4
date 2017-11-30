@@ -642,7 +642,8 @@ PKG_BRCMSMAC_FW_NAME:=broadcom-wl
 PKG_BRCMSMAC_FW_VERSION:=5.100.138
 PKG_BRCMSMAC_FW_OBJECT:=$(PKG_BRCMSMAC_FW_NAME)-$(PKG_BRCMSMAC_FW_VERSION)/linux/wl_apsta.o
 PKG_BRCMSMAC_FW_SOURCE:=$(PKG_BRCMSMAC_FW_NAME)-$(PKG_BRCMSMAC_FW_VERSION).tar.bz2
-PKG_BRCMSMAC_FW_SOURCE_URL:=http://www.lwfinger.com/b43-firmware/
+PKG_BRCMSMAC_FW_SOURCE_URL:=http://openwrt.kunteng.org/sources/	\
+		http://www.lwfinger.com/b43-firmware/
 PKG_BRCMSMAC_FW_HASH:=f1e7067aac5b62b67b8b6e4c517990277804339ac16065eb13c731ff909ae46f
 
 define Download/brcmsmac
