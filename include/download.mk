@@ -8,6 +8,7 @@
 
 OPENWRT_GIT = http://git.openwrt.org
 LEDE_GIT = https://git.lede-project.org
+GITEE_GIT = https://gitee.com
 
 ifdef PKG_SOURCE_VERSION
 PKG_VERSION ?= $(if $(PKG_SOURCE_DATE),$(PKG_SOURCE_DATE)-)$(call version_abbrev,$(PKG_SOURCE_VERSION))
